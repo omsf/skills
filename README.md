@@ -38,8 +38,8 @@ plugins are required by this repository.
 
 ## Workflow catalog
 
-Workflow titles match the directory snapshot in
-[`references/workflows.txt`](references/workflows.txt), retrieved **2026-10-26**.
+Workflow titles match the [OMSF workflow directory](https://directory.omsf.io/workflows/llms.txt)
+as retrieved **2026-10-26**.
 Each skill links to the upstream material it was researched against. Revision
 pins identify source material, not a guarantee that all dependency versions remain
 available or compatible.
@@ -81,8 +81,8 @@ available or compatible.
 Keep one skill per directory workflow, with a matching lowercase folder/name and
 a routing description. Use original instructions and small source-checked
 examples, cite upstream revisions, and keep each `SKILL.md` under 500 lines. When
-updating the catalog, compare the live directory with the saved snapshot and
-update this table and the corresponding skills together.
+updating the catalog, compare the live directory with this table and update the
+corresponding skills together.
 
 Validate frontmatter with the Agent Skills reference validator (requires `uv` and
 network access on first use):
@@ -95,14 +95,13 @@ done
 
 Also inspect code-block syntax and source links. These checks do not run the
 scientific workflows: numerical validation requires the relevant environments,
-input data, optional licenses, and compute budget. See the
-[validation record](references/validation.md) for targeted CPU and data-access checks
-and untested paths. Full end-to-end scientific validation is not claimed.
+input data, optional licenses, and compute budget. Full end-to-end scientific
+validation is not claimed.
 
 ## Attribution and licensing
 
-Sources and upstream license identifiers are recorded in individual skills and in
-the directory snapshot. Those identifiers describe upstream projects, not a grant
+Sources and upstream license identifiers are recorded in individual skills.
+Those identifiers describe upstream projects, not a grant
 of rights to this collection or every underlying dataset. Check dataset-specific
 terms separately. No repository-wide license has been selected for this new
 collection; select one before public distribution. Upstream notebooks and datasets
