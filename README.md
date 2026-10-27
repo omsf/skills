@@ -38,7 +38,7 @@ plugins are required by this repository.
 
 ## Workflow catalog
 
-Workflow titles match the [OMSF workflow directory](https://directory.omsf.io/workflows/llms.txt)
+Workflow titles match the [OMSF workflow directory](https://directory.omsf.io/workflows/)
 as retrieved **2026-10-26**.
 Each skill links to the upstream material it was researched against. Revision
 pins identify source material, not a guarantee that all dependency versions remain
@@ -63,14 +63,13 @@ available or compatible.
 | Relative Free Energies with the OpenFE CLI | [openfe-rbfe-cli](openfe-rbfe-cli/SKILL.md) |
 | Visualizations with OpenFF | [openff-visualization](openff-visualization/SKILL.md) |
 
-## Limitations
+## Warnings
 
+This is an ALPHA implementation of this repository and is provided as is.
 A successful example run is not evidence of convergence, predictive accuracy,
-or suitability for clinical or regulatory decisions. Full end-to-end scientific
-validation is not claimed.
-
-Repository maintenance and agent execution instructions are in
-[AGENTS.md](AGENTS.md).
+or suitability for clinical or regulatory decisions. 
+Full end-to-end scientific validation is not claimed.
+We always recommend using project documentation for the most up-to-date workflow implementations.
 
 ## Attribution and licensing
 
