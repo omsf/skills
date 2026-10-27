@@ -1,3 +1,7 @@
+> [!WARNING]
+> Currently this work is in progress, please give us feedback here:
+> https://github.com/omsf/skills/discussions
+
 # OMSF workflow skills
 
 Portable [Agent Skills](https://agentskills.io/specification) for every workflow in the
